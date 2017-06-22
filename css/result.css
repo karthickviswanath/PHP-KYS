@@ -1,0 +1,46 @@
+.rstBx{
+    border: 1px solid #CCCCCC;
+    padding: 15px 2% 15px 2%;
+    box-shadow: 0 1px 4px #CCCCCC;
+    margin: 15px 2% 10px 2%;
+    background-color: white;
+}
+.rstBx a{
+    color: #383D8C;
+    font-size: 24px;
+}
+.rstBx i{
+    padding: 0 10px 0 0;
+}
+.rstBx button{
+    padding: 5px 5px 5px 5px;
+    margin: 15px 5px 10px 5px;
+    width: 100px;
+    background-color: #FFFFFF;
+    color: #615E5E;
+    font-size: 14px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+}
+.dtls{
+    margin: 20px 0 15px 0;
+}
+.pic{
+    min-width: 300px;
+    float: left;
+    width: 30%;
+}
+.pic img{
+    min-width: 300px;
+    height: 250px;
+    width: 100%;
+}
+.dtm{
+    float: left;
+    margin-left: 1%;
+} 
+@media (max-width: 800px) {
+  .pic{
+    width: 100%;
+  }
+} 

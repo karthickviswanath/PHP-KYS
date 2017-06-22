@@ -1,0 +1,120 @@
+form{
+    display: inline-block;
+    font-size: 0;
+    width: 100%;
+}
+.cntr{
+    text-align: center;
+    margin: 7% auto;
+}
+input#search {
+    width: 40%;
+    border-radius: 0px 4px 4px 0;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 2% 10px 2%;
+    display: inline-block;
+    border: 1px solid #AAAAAA;
+}
+input#txtPlaces {
+    width: 15%;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 16px;
+    padding: 10px 1% 10px 3%;
+    display: inline-block;
+    background-color: #ECECEC;
+    border: 1px solid #AAAAAA;
+    border-right: 0
+}
+#fltrSbt{
+    position: relative;
+    left: -30px;
+    color: #383D8C;
+    cursor:pointer;
+    width: 0;
+    font-size: 20px;
+}
+#map{
+    position: relative;
+    left: 10px;
+    color: #000000;
+    cursor:pointer;
+    width: 0;
+    font-size: 20px;
+}
+.ajxResp{
+    margin: 30px 0 120px 0;
+}
+@media (max-width: 800px) {
+  input#search {
+    width: 58%;
+  }
+  input#txtPlaces {
+    width: 25%;
+    padding: 10px 1% 10px 7%;
+  }
+}
+
+
+
+
+
+/*section.courses {
+  float: left;
+  width: 70%;
+  border-right: 1px solid #eeeeee;
+}
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+hgroup {
+  margin-top: 40px;
+}
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #CCCCCC;
+}
+figure img{
+  width: 290px;
+  height: 200px;
+}
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+aside {
+  width: 28%;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+h3 {
+  margin: 0px 0px 10px 0px;
+  color: #383D8C; 
+}
+aside h2 {
+  padding: 30px 0px 10px 0px;
+}
+.ad-run{
+    width: 100%;
+    margin: 40px 0 0 0;
+}*/

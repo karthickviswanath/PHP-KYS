@@ -1,0 +1,56 @@
+header{
+  background-color: #0074B8;
+}
+.hd, .cat{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1{
+  font-family: fantasy;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+}
+h1 a{
+  color: #FFFFFF;
+}
+nav{
+  clear: both;
+  color: #0074B8;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E8E8E8;
+  box-shadow: 0px 5px 18px #D4D4D4;
+}
+nav ul{
+    margin: 0px;
+    padding: 10px 0px 10px 0;
+    text-align: center;
+}
+nav li {
+  display: inline;
+  margin-right: 2%;
+  padding: 0 2% 0 0;
+}
+nav li:not(:last-child){
+  border-right: 1px solid #333333
+}
+nav li {
+
+}
+/*.sgn{
+  display: inline-block;
+  color: #FFFFFF;
+  margin: 0 0 0 100px;
+}
+.sgn a{
+  color: #FFFFFF;
+}*/
+/*.dgt{
+  font-size: 26px;
+  padding: 10px 283px 0 0;
+  text-align: right;
+}
+.dgt .fa::before{
+  color: #FFFFFF;
+}*/

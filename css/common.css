@@ -1,0 +1,21 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+body {
+  color: #555555;
+  background-color: #f9f8f6;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+.cntr{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  cursor: pointer
+}
+h1, h2, h3 {
+  font-weight: normal;
+}
