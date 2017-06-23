@@ -1,18 +1,7 @@
 <?php
 
 
-$servername = "localhost";
-$username = "mysqladminavk";
-$password = "Karthick@123";
-$dbname = "DealersMart";
-
-
-/*
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "Dealers";
-*/
+include("components/connect.php"); 
 
 
 $name = $_POST['Name'];
@@ -23,17 +12,19 @@ $Contact = $_POST['Contact'];
 $Product = $_POST['Product'];
 
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
- } 
 
-$sql = "INSERT INTO Contact (Name,CompanyName,Description, Address,Contact,Product) VALUES ('".$name."', '".$CompanyName."','".$Description."','".$Address."','".$Contact."','".$Product."')"; 
+$sql = "INSERT INTO Contact (Name,CompanyName,Description, Address,Contact,Product,profileimageid) VALUES ('".$name."', '".$CompanyName."','".$Description."','".$Address."','".$Contact."','".$Product."',1)"; 
 
-$result = $conn->query($sql);
+//$result = $conn->query($sql);
 
-header('Location: '."http://leisurehomes.co/test/");
+
+if (!mysqli_query($conn,$sql))
+  {
+  echo("Error description: " . mysqli_error($conn));
+  }
+
+//echo @sql;
+
+header('Location: '."index.php");
 
 ?>

@@ -14,6 +14,7 @@
 <?php
 
 include("components/connect.php"); 
+include("components/header.php"); 
 
 $sql = "SELECT ID, Name, CompanyName,Description,Address,Contact,Product FROM Contact"; 
 $result = $conn->query($sql);

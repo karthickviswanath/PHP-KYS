@@ -20,8 +20,7 @@
   <nav>
     <div class="cat">
       <ul>
-        <li><a href="" class="current">Home</a></li>
-        <li><a href="">My Store</a></li>
+        <li><a href="index.php" class="current">Home</a></li>        
         <li><a href="displayDealers.php">Inventory</a></li>        
         <li><a href="">Contact us</a></li>
       </ul>
