@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="./css/header.css">
+<link rel="stylesheet" type="text/css" href="css/font_awesome.css"> 
 <header>
   <div class="hd">
     <!-- <div class="dgt">
@@ -20,7 +21,7 @@
   <nav>
     <div class="cat">
       <ul>
-        <li><a href="index.php" class="current">Home</a></li>        
+        <li><a href="index.php" class="current">Home</a></li>
         <li><a href="displayDealers.php">Inventory</a></li>        
         <li><a href="">Contact us</a></li>
       </ul>

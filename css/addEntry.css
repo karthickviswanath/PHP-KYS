@@ -1,0 +1,25 @@
+label{
+    display: block;
+    margin: 15px 0 3px 0;
+}
+input, textarea {
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #AAAAAA;
+    width: 96%;
+}
+input.sml{
+    max-width:250px
+}
+.actBtn{
+    margin: 25px 0 10px 0;
+    text-align: center
+}
+.actBtn .btn{
+    margin: 0 2% 0 0
+}
+.actBtn a{
+    display: inline-block;
+    line-height: 3;
+}

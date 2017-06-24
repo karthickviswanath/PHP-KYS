@@ -7,10 +7,12 @@ body {
   font-family: Georgia, Times, serif;
   line-height: 1.4em;
   margin: 0px;
+  font-size: 14px
 }
 .cntr{
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 120px auto;
+  padding: 0 1%;
 }
 a {
   text-decoration: none;
@@ -18,4 +20,27 @@ a {
 }
 h1, h2, h3 {
   font-weight: normal;
+}
+.btn{
+  border-radius: 3px; 
+  line-height: 1.15;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  height: 40px;
+  padding: 0 48px;
+  cursor: pointer
+}
+.btn-prm{
+  border: 1px solid #0654BA;
+  background-color: #0654BA;
+  color: #FFFFFF;
+}
+.btn-scnd{
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  color: #555555;
+}
+.clb{
+  clear: both
 }

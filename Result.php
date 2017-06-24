@@ -1,7 +1,7 @@
 <?php
 
 $qry = $_GET['search']; 
-$location = "";
+$location = $_GET['location'];
 include("components/connect.php"); 
  
 if($location=="")

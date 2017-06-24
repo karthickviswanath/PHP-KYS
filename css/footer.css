@@ -5,7 +5,7 @@ footer div{
 footer {
   clear: both;
   border-top: 1px solid #CCCCCC;
-  padding: 15px 0 10px 0;
+  padding: 5px 0 5px 0;
   background-color: #FFFFFF;
   position: fixed;
   bottom: 0;
@@ -13,8 +13,8 @@ footer {
   text-align: center;
 }
 .mkt{
-  font-size: 30px;
-  padding: 5px 0 10px 0;
+  font-size: 26px;
+  padding: 5px 0 5px 0;
 }
 .mkt .fa{
   color: #000000

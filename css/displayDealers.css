@@ -1,0 +1,16 @@
+.pgTtl h2{
+    float: left;
+    margin: 25px 0 0 0;
+}
+.pgTtl button{
+    float: right;
+    margin: 15px 0 0 0;
+}
+td, th{
+    padding: 5px 5px 5px 5px;
+}
+table {
+    margin: 15px 0 0 0;
+    border: 1px solid #A7A7A7;
+    border-collapse: collapse;
+}
